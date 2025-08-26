@@ -21,7 +21,7 @@ int main() {
         } else {
             std::cout << "That isn't her birth year!\n";
         }
-    } else if (name == "Courtney") {
+    } else if (name == "Courtney" || name == "Court" || name == "Mom" || name == "mom") {
         std::cout << "Enter your birth year: ";
         std::cin >> info;
         if (info == "1970") {
@@ -49,7 +49,7 @@ int main() {
         } else {
             std::cout << "That isn't his birth year!\n";
         }
-    } else if (name == "Stephen") {
+    } else if (name == "Stephen" || name == "Steve" || name == "Dad" || name == "dad") {
         std::cout << "Enter your birth year: ";
         std::cin >> info;
         if (info == "1965") {
